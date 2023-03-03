@@ -22,6 +22,11 @@ npm install @capacitor/filesystem
 npm install --save @capacitor-community/sqlite
 Copy manually the file sql-wasm.wasm from node_modules/sql.js/dist/sql-wasm.wasm to the public/assets folder of YOUR_APP
 npm install copyfiles
+
+npm install -g ionic
+
+npm WARN deprecated superagent@4.1.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+npm WARN deprecated ionic@5.4.16: The Ionic CLI now uses ✨ @ionic/cli ✨ for its package name! 👉 https://twitter.com/ion
 ionic init
 ionic cap add android
 ionic cap run android -l --external
@@ -65,7 +70,7 @@ npx cap sync
 npx cap open android
 ionic cap run android  -l --external
    wait to select emulator
-   you will seestarting development server
+   you will see starting development server
 
 
 PRODUCTION:

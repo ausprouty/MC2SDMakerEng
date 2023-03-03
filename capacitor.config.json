@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "MC2SDMakerSQL",
+  "appId": "com.mc2.eng",
+  "appName": "MC2 English",
   "webDir": "dist",
   "bundledWebRuntime": false
 }

@@ -1,6 +1,6 @@
 {
-  "name": "com.mc2.engsql2",
-  "version": "0.0.0",
+  "name": "com.mc2.eng",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
