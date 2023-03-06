@@ -4,6 +4,7 @@ export default {
 	async notes (route){
 		console.log ('notes attempting to find source')
 		var source = await this.getDataSource()
+
 		console.log ('notes found source')
 		var data = []
 		if (source == 'database'){
@@ -142,6 +143,8 @@ export default {
 	return newHeight
 	},
 	async getDataSource(){
+		// todo: remove this since you are forcing local storage
+		localStorage.setItem('mc2NoteSource', 'localstorage')
 		var noteSource = localStorage.getItem('mc2NoteSource')
 		if (!noteSource){
 			noteSource= await createDataStore()
